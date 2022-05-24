@@ -1,0 +1,12 @@
+{
+    "customer": "Joao da Silva",
+    "carrier": "Fedex",
+    "products": [
+      {
+        "sku": "123",
+        "name": "Tenis",
+        "value": 1
+      }
+    ],
+    "paymentMethod": "Credit Card"
+  }
