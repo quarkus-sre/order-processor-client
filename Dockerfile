@@ -6,4 +6,5 @@ RUN microdnf update -y && rm -rf /var/cache/yum
 RUN microdnf install curl -y && microdnf clean all
 # Start the service
 COPY client.sh client.sh
+COPY order.json order.json
 ENTRYPOINT ["./client.sh"]
