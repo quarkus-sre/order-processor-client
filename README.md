@@ -1,0 +1,1 @@
+Should be deployed in the same project than order-processor service
